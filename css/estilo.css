@@ -1,0 +1,107 @@
+*{
+padding:0px;
+margin:0px;
+font-family: Century Gothic, CenturyGotic,sans-serif;
+}
+
+.container{
+    border:groove;
+background-color:#ededed;   
+width:fit-content;
+margin:auto;
+margin-top: 35px; 
+}
+.display{
+    padding:18px 18px 0px 18px;
+    }
+
+#result{
+  background-color:black;
+  padding:9px;
+  color:#eee;
+  text-align: right;
+}
+
+.keys {
+    display:flex;
+} 
+    
+.numbers{
+    padding:0px 9px 9px 9px;
+}
+
+.op{
+    padding:9px 0px 0px 9px;
+}
+.equals{
+   border:none;
+    }
+
+.equals button{
+    color:#ededed;
+    border:none;
+    margin-left: -5px;
+    margin-right: 1px;
+    width: 51px;
+    height: 212px;
+    background-color: #4B7DB3;
+    transition: all 0.09s;
+}
+
+.equals button:hover{ 
+    background-color: #aaa;
+    box-shadow: 0px 0px 12px #aaa; 
+} 
+
+.op button{
+    color:#4B7DB3;
+    display:inline;
+    width:50px;
+    height:50px;
+    padding:9px 9px;
+    border:none;
+    transition: all 0.09s;
+    
+}
+
+.op button:hover{
+    border:0px;
+    background-color: rgb(219, 219, 219);
+    box-shadow: 0px 0px 12px #aaa; 
+} 
+.numbers div{
+    text-align: left;
+}
+
+.numbers button{
+    border:0px;
+    width:50px;
+    height:50px;
+    transition: all 0.09s;
+}
+
+.numbers button:hover{
+    border:0px;
+    background-color: rgb(219, 219, 219);
+    box-shadow: 0px 0px 12px #aaa; 
+} 
+
+#AC{
+    text-align: left;
+  color:white;
+  background-color: #D35F5F;
+  transition: all 0.09s;    
+}
+
+#AC button:hover{
+    border:0px;
+    box-shadow: 0px 0px 12px #aaa; 
+} 
+
+button{
+    background-color: white;
+    margin:2px 0px;
+    padding:15px 24px;
+    font-size: 15px;
+    
+}
